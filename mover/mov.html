@@ -5,41 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mover</title>
     <style>
-        div input{
-            margin-left: 10px;
-            line-height: 30px;
-        }
-        .nav{
-            margin-top: 10px;
-            height: 40px;
-            width: 85%;
-            line-height: 40px;
-            background-color: rgb(90, 90, 150);
-            margin: 10px auto;
-            font-size: 16px; 
-            text-align: center;
-        }
-
-     *{
+        *{
             margin:0;
             padding: 0;
             box-sizing: border-box;
         }
-
-    .header{
-            width: 70%;
-            height:70px;
-            border: 1px solid black;
-            margin: auto;
+        .header{
+            width: 85%;
+            height: 70px;
+            line-height: 40px;
+            background-color: blue;
+            margin: 10px;
+            font-size: 15px;
+            border:1px solid black;
             position: relative;
+            margin-top: 20px;
         }
-
-    img{
-        width: auto;
-        height:50px;
-    }
-
-    #search{
+        img{
+            height: 50px;
+            width: auto;
+        }
+            #search{
             width: 650px;
             height: 32px;
             border: 0.3px solid rgb(146, 138, 138);
@@ -49,212 +35,161 @@
             border-radius: 3px;
             outline: none;
         }
-
-        .section{
+        .nav{
             margin-top: 10px;
-            width: 70%;
-            background-color: blue;
+            height: 60px;
+            width: 85%;
+            line-height: 40px;
+            background-color: black;
+            margin: 10px auto;
+            font-size: 16px;
+            text-align: left;
+        }
+        .section{
+            width: 65%;
+            background-color: blueviolet;
+            height: 820px;
             display: inline-block;
             vertical-align: top;
         }
-        
-    .pictur_size{
-        width: 220px;          
-        height: auto;
-        text-align: center;
-        display: inline-block;
-        margin: 10px;
-        border:1px solid black;
-        vertical-align: top;
-    }
 
-    video{
-        width: 100%;          
-        height: 180px;
-    }
-
-    .pictur_size img{
-        width: 40px;
-        height: 40px;
-    }
-
-    span{
+        .video_size{
+            width: 200px;
+            height: auto;
+            text-align:center;
+            display: inline-block;
+            margin: 10px;
+            border:  0.5px solid orange;
+        }
+        .video_size video{
+            width:200px;
+            height: 180px;
+        }
+        .video_size img{
+            width: 30px;
+            height: 40px;
+        }
+      span{
         display: block;      
         font-size: 16px;
         margin-top: 5px;
     }
-
     .aside{
         display: inline-block;
-        background-color: antiquewhite;
+        background-color: orange;
         text-align: center;
-        width: 28%;
-        height: 700px;
+        width: 30%;
+        height: 820px;
         vertical-align: top;
     }
-
+    .aside img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
     .footer{
         line-height: 40px;
-        width: 100%;
+        width: 90%;
         height: 40px;
-        background-color: rgb(255, 0, 174);
+        background-color: brown;
     }
-   .aside img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+
     </style>
 </head>
 <body>
     <div class="header">
-        
-            <img src="https://mover.uz/images/logo-mover-uz-header.svg" width="50px" >
-            <form action="https://mover.uz/search?val=kino" method="get">
-                <input type="text" name="val" id="search">
-            </form>
-        
-        
+        <img src="https://mover.uz/images/logo-mover-uz-header.svg" >
+        <form action="https://mover.uz/search?val=" method="get"></form>
+        <input type="text" name="val=" id="search">
     </div>
+
     <div class="nav">
-        i dont   know how to do  
+
     </div>
-
-
-
     <div class="section">
-        <div class="pictur_size">
+        <div class="video_size">
             <video src="/videolar/girl.mp4" controls></video>
             <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
             <span>the</span>
         </div>
-        <div class="pictur_size">
+        <div class="video_size">
             <video src="/videolar/girl.mp4" controls></video>
             <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
             <span>the</span>
         </div>
-        <div class="pictur_size">
+                <div class="video_size">
             <video src="/videolar/girl.mp4" controls></video>
             <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
             <span>the</span>
         </div>
-        <div class="pictur_size">
+                <div class="video_size">
             <video src="/videolar/girl.mp4" controls></video>
             <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
             <span>the</span>
         </div>
-        <div class="pictur_size">
+                <div class="video_size">
             <video src="/videolar/girl.mp4" controls></video>
             <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
             <span>the</span>
         </div>
-        <div class="pictur_size">
+                <div class="video_size">
             <video src="/videolar/girl.mp4" controls></video>
             <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
             <span>the</span>
         </div>
-        <div class="pictur_size">
+                <div class="video_size">
             <video src="/videolar/girl.mp4" controls></video>
             <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
             <span>the</span>
         </div>
-        <div class="pictur_size">
+                <div class="video_size">
             <video src="/videolar/girl.mp4" controls></video>
             <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
             <span>the</span>
         </div>
-        <div class="pictur_size">
+                <div class="video_size">
             <video src="/videolar/girl.mp4" controls></video>
             <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
             <span>the</span>
         </div>
-        <div class="pictur_size">
+                <div class="video_size">
             <video src="/videolar/girl.mp4" controls></video>
             <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
             <span>the</span>
         </div>
-        <div class="pictur_size">
+                <div class="video_size">
             <video src="/videolar/girl.mp4" controls></video>
             <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
             <span>the</span>
         </div>
-        <div class="pictur_size">
+                <div class="video_size">
             <video src="/videolar/girl.mp4" controls></video>
             <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
             <span>the</span>
         </div>
-        <div class="pictur_size">
+                <div class="video_size">
             <video src="/videolar/girl.mp4" controls></video>
             <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
             <span>the</span>
         </div>
-        <div class="pictur_size">
+                <div class="video_size">
             <video src="/videolar/girl.mp4" controls></video>
             <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
             <span>the</span>
         </div>
-        <div class="pictur_size">
+                <div class="video_size">
             <video src="/videolar/girl.mp4" controls></video>
             <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
             <span>the</span>
         </div>
-        <div class="pictur_size">
-            <video src="/videolar/girl.mp4" controls></video>
-            <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
-            <span>the</span>
-        </div>
-        <div class="pictur_size">
-            <video src="/videolar/girl.mp4" controls></video>
-            <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
-            <span>the</span>
-        </div>
-        <div class="pictur_size">
-            <video src="/videolar/girl.mp4" controls></video>
-            <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
-            <span>the</span>
-        </div>
-        <div class="pictur_size">
-            <video src="/videolar/girl.mp4" controls></video>
-            <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
-            <span>the</span>
-        </div>
-        <div class="pictur_size">
-            <video src="/videolar/girl.mp4" controls></video>
-            <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
-            <span>the</span>
-        </div>
-        <div class="pictur_size">
-            <video src="/videolar/girl.mp4" controls></video>
-            <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
-            <span>the</span>
-        </div>
-        <div class="pictur_size">
-            <video src="/videolar/girl.mp4" controls></video>
-            <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
-            <span>the</span>
-        </div>
-        <div class="pictur_size">
-            <video src="/videolar/girl.mp4" controls></video>
-            <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
-            <span>the</span>
-        </div>
-        <div class="pictur_size">
-            <video src="/videolar/girl.mp4" controls></video>
-            <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
-            <span>he</span>
-        </div>
-        <div class="pictur_size">
-            <video src="/videolar/girl.mp4" controls></video>
-            <img src="https://img.freepik.com/free-photo/portrait-happy-smiling-woman-standing-square-sunny-summer-spring-day-outside-cute-smiling-woman-looking-you-attractive-young-girl-enjoying-summer-filtered-image-flare-sunshine_231208-6734.jpg?semt=ais_hybrid&w=740&q=80" alt="">
-            <span>the</span>
-        </div>
-        
+
     </div>
     <div class="aside">
-        <a href="https://mover.uz/reklama"> <img src="https://avatars.mds.yandex.net/get-adfox-content/2788782/250221_adfox_3278341_14653622.53e7e3ad53aebee6f812ce5da5339641.jpg/optimize.webp" ></a>
+        <a href="https://mover.uz/reklama"><img src="https://avatars.mds.yandex.net/get-adfox-content/2788782/250221_adfox_3278341_14653622.53e7e3ad53aebee6f812ce5da5339641.jpg/optimize.webp" alt=""></a>
     </div>
-
-    <div class="footer"></div>
+    <div class="footer">
+        footer
+    </div>
 
 </body>
 </html>
